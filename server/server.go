@@ -22,6 +22,6 @@ func Init() {
 	// r.Run(":6969")
 	err := r.Run(":80")
 	if err != nil {
-		return 
+		return
 	}
 }

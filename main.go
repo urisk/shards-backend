@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "shards-backend/server"
 
-func main(){
-	fmt.Println("Good News!")
-	//server.Init()
+func main() {
+	//fmt.Println("Good News!")
+	server.Init()
 }
-
